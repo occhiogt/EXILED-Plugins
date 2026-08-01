@@ -1,7 +1,7 @@
-﻿using Exiled.API.Interfaces;
-using System.ComponentModel;
+﻿using System.ComponentModel;
+using Exiled.API.Interfaces;
 
-namespace Welcome
+namespace scp_018
 {
     public class Config : IConfig
     {
@@ -10,5 +10,8 @@ namespace Welcome
 
         [Description("Determines whether debug messages are displayed.")]
         public bool Debug { get; set; } = false;
+
+        [Description("Total seconds that SCP-018 bounces before exploding.")]
+        public float Time { get; set; } = 300f;
     }
 }
