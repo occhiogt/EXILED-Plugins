@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="scp-018/scp-018.csproj" Id="b1223461-3a46-45ca-8b26-9a28becc3e39" />
   <Project Path="scp-207/scp-207.csproj" Id="afadcc91-71b4-43d1-91f3-d1ebc3561cfd" />
+  <Project Path="scp-966/scp-966.csproj" Id="9a6c31e5-7f42-4d08-b3aa-2e91c8d47f66" />
   <Project Path="Welcome/Welcome.csproj" Id="dde64e4f-638d-436b-8f2f-08f4eb6400ee" />
 </Solution>
