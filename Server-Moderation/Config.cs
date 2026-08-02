@@ -18,7 +18,7 @@ namespace Server_Moderation
         public bool Debug { get; set; } = false;
 
         [Description("MySQL connection string.")]
-        public string ConnectionString { get; set; } = "....";
+        public string ConnectionString { get; set; } = "";
 
         [Description("Discord BOT connection token.")]
         public string BotToken { get; set; } = "";
@@ -56,9 +56,6 @@ namespace Server_Moderation
         public bool AntiTKdimassa { get; set; } = true;
 
         [Description("List of players (put the Steam ID) ignored by the anti mass-ban check.")]
-        public List<string> IgnoredStaffers { get; set; } = new List<string>()
-        {
-            "........@steam",
-        };
+        public List<string> IgnoredStaffers { get; set; } = new List<string>();
     }
 }
