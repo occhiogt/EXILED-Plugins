@@ -18,7 +18,7 @@ namespace Server_Moderation
         public bool Debug { get; set; } = false;
 
         [Description("MySQL connection string.")]
-        public string ConnectionString { get; set; } = "Server=127.0.0.1;Port=3306;Database=scpsl;User ID=scpsluser;Password=........;Connection Timeout=10;";
+        public string ConnectionString { get; set; } = "....";
 
         [Description("Discord BOT connection token.")]
         public string BotToken { get; set; } = "";
