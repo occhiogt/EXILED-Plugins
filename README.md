@@ -18,6 +18,9 @@ A configurable plugin that turns SCP-207 into a deadly surprise: drinking it spa
 ### SCP-966 (private — [contact me](https://occhiofly.dev/) to buy)
 A full custom SCP built on top of SCP-049-2: invisible to humans but visible to other SCPs, briefly revealed (with a counterattack speed boost) when it takes damage, consumes corpses to heal or build Hume Shield, and emits a "Waves" aura that stacks permanent debuffs (slowness, amnesia, blurriness, deafness) on nearby humans. Spawn chance and every stat are configurable. Only the config surface is shown here — the actual implementation isn't public; get in touch if you want to use it.
 
+### Server-Moderation (private — [contact me](https://occhiofly.dev/) to buy)
+A full moderation suite: MySQL-backed player/ban/warn history, a jail system with inventory snapshots, anti mass-ban and anti mass-team-kill detection with automatic staff notification, and three separate Discord bots (action logs, live server status embed, RA moderation logs). Co-developed with [Giac](https://github.com/giac02cant). Only the config surface is shown here — the actual implementation isn't public; get in touch if you want to use it.
+
 ### ScpHealth
 A configurable plugin to set custom max HP per SCP role — any SCP not listed in the config keeps its vanilla HP.
 
