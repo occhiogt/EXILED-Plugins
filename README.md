@@ -15,6 +15,9 @@ A configurable plugin to increase the duration (in seconds) of SCP-018 before it
 ### SCP-207
 A configurable plugin that turns SCP-207 into a deadly surprise: drinking it spawns a live grenade at your feet, with a configurable fuse time (0.1s by default).
 
+### SCP-427 (private — [contact me](https://occhiofly.dev/) to buy)
+A reworked "Old Bay's Lamp": heals its holder and grants immunity to negative status effects while lit, tracks cumulative lit-time across drops/pickups, and mutates the holder into a stronger, custom SCP-427-1 (boosted HP, scale, damage reduction, auto gate-prying) once a configurable threshold is reached. Also duplicates SCP-500/SCP-207 pedestals into SCP-427 spawns and adds an SCP-914 recipe to craft it. Only the config surface is shown here — the actual implementation isn't public; get in touch if you want to use it.
+
 ### SCP-966 (private — [contact me](https://occhiofly.dev/) to buy)
 A full custom SCP built on top of SCP-049-2: invisible to humans but visible to other SCPs, briefly revealed (with a counterattack speed boost) when it takes damage, consumes corpses to heal or build Hume Shield, and emits a "Waves" aura that stacks permanent debuffs (slowness, amnesia, blurriness, deafness) on nearby humans. Spawn chance and every stat are configurable. Only the config surface is shown here — the actual implementation isn't public; get in touch if you want to use it.
 
