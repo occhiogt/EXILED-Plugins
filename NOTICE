@@ -1,0 +1,15 @@
+EXILED-Plugins
+Copyright 2026 Alex (occhiogt)
+
+By default, this product is licensed under the Apache License, Version 2.0
+(see LICENSE) — free to use, modify, and redistribute with attribution.
+
+EXCEPTION: some plugins in this repository (more complex ones, shown here
+for portfolio purposes) are published source-available but NOT under the
+Apache License. Any plugin folder containing its own LICENSE file uses
+those terms instead of the Apache License above — typically "you may view
+the code, but you may not use, copy, or redistribute it without a paid
+license from the author." Always check for a LICENSE file inside the
+specific plugin's own folder before assuming the Apache grant applies to it.
+
+Contact: https://occhiofly.dev/
