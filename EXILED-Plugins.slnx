@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="HumanHealth/HumanHealth.csproj" Id="8800b37a-e04b-4705-bafc-95a42ba301bc" />
   <Project Path="scp-018/scp-018.csproj" Id="b1223461-3a46-45ca-8b26-9a28becc3e39" />
   <Project Path="scp-207/scp-207.csproj" Id="afadcc91-71b4-43d1-91f3-d1ebc3561cfd" />
   <Project Path="ScpHealth/ScpHealth.csproj" Id="c839dd74-968e-40a4-8327-9d7fa84a7ab2" />

@@ -6,6 +6,9 @@ A repository where you can find various plugins I've developed just for fun.
 ### Welcome
 A plugin to welcome new players to your server; fully customizable.
 
+### HumanHealth
+A configurable plugin to set custom max HP per human role (Class-D, Scientist, MTF, Chaos, Facility Guard) — any role not listed in the config keeps its vanilla HP.
+
 ### SCP-018
 A configurable plugin to increase the duration (in seconds) of SCP-018 before it explodes.
 

@@ -1,7 +1,7 @@
 ﻿using Exiled.API.Features;
 using Exiled.Events.EventArgs.Player;
 
-namespace ScpHealth
+namespace HumanHealth
 {
     public class EventHandlers
     {
@@ -27,7 +27,7 @@ namespace ScpHealth
             if (!config.CustomHp.TryGetValue(ev.Player.Role.Type, out float hp))
             {
                 if (config.Debug)
-                    Log.Info($"[scphealth] {ev.Player.Nickname} ({ev.Player.Role.Type}): unmanaged role, vanilla HP.");
+                    Log.Info($"[humanhealth] {ev.Player.Nickname} ({ev.Player.Role.Type}): unmanaged role, vanilla HP.");
 
                 return;
             }
@@ -36,7 +36,7 @@ namespace ScpHealth
             ev.Player.Health = hp;
 
             if (config.Debug)
-                Log.Info($"[scphealth] {ev.Player.Nickname} ({ev.Player.Role.Type}): HP set to {hp}.");
+                Log.Info($"[humanhealth] {ev.Player.Nickname} ({ev.Player.Role.Type}): HP set to {hp}.");
         }
     }
 }
