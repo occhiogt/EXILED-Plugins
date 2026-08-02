@@ -429,4 +429,7 @@ FodyWeavers.xsd
 *.msp
 
 #.dll
-libs/
+libs/*
+# Third-party DLLs with no NuGet source: vendored on purpose, keep tracked.
+!libs/AudioPlayerApi.dll
+!libs/SCPSLAudioApi.dll
